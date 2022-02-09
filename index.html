@@ -1,67 +1,382 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>BCTecnica</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet"></head>
-  <body>
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <div class="main-nav">
-        <ul class="nav">
-          <li class="name">BCTecnica</li>
-          <li><a href="#">Home</a></li>
-          <li><a href="https://github.com">Projects</a></li>
-          <li><a href="https://www.instagram.com/jammydude7">Photography</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </div>
+	<title>BCTecnica</title>
+	<link rel="icon" href="images/my-profile-picure.png" type="image/icon type">
 
-    <header>
-      <img src="images/me.png" alt="Profile picture" class="profile-image">
-      <h1 class="tag name">Benjamin Colgan</h1>
-      <p class="tag location">Current location: Poole.</p>
-    </header>
+	<link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+	
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
 
-    <main class="flex">
-      <div class="card">
-        <h2 class="card-title">About me</h2>
-        <p>I’m a self taught software engineer with a passion for front end development. I've built and maintained several android apps and
-            I am currently learning HTML, CSS and javascript for web development.</p>
-        <p>I have learnt to use many different programming laguages in my journey so far including java, python and HTML/CSS implemented using 
-            many popular IDE's and types of software such as android studio, pycharm and visual studio code and adobe XD.</p>
-      </div> 
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
 
-      <div class="card">
-        <h2 class="card-title">Experience</h2>
-        <p class="lang-text"> I have been teaching myself programming for about a year now. I am always seeking to increase my knowledge, skills and abilities
-             as a developer and currently have experience using:
-        </p>
-        <ul class="languages">
-          <li>HTML/XML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>Python</li>
-          <li>Java</li>
-          </ul>
-          <ul class="ide">
-          <li>Android studio</li>
-          <li>Intellij</li>
-          <li>Pycharm</li>
-          <li>Trello</li>
-          <li>Adobe XD</li>
-          </ul>
-      </div> 
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
 
-    </main>
-    <footer>
-      <p class="copyright">External links</p>  
-      <ul>
-        <li><a href="https://github.com" target="_blank" class="social github">Github</a></li>
-        <li><a href="https://www.instagram.com/jammydude7" target="_blank" class="social instagram">Instagram</a></li>
-      </ul>
-      <p class="copyright">&copy; 2021</p>
-    </footer>
-  </body>
-  </html>
+
+	</head>
+	<body>
+	
+	<div id="page">	<!-- Header -->
+	<header id="fh5co-header" class="js-fullheight" role="banner" style="background-image:url(images/jasmines-background-code.png);">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<div class="display-t js-fullheight">
+						<div class="display-tc js-fullheight">
+							<img class="profile-thumb" src="images/my-profile-picure.png" alt="Profile pic">
+							<h1 ><span class="blinking-caret">{ Ben Colgan }</span></h1>
+							<h3><span>> Front-end Web Developer</span></h3>
+							<h3><span>> Android App Developer</span></h3>
+							<p>
+								<ul class="fh5co-social-icons">
+									<li><a href="#"><i class="icon-github2"></i></a></li>
+									<li><a href="#"><i class="icon-instagram2"></i></a></li>
+									<li><a href="#"><i class="icon-youtube2"></i></a></li>
+									<li><a href="#"><i class="icon-linkedin2"></i></a></li>
+								</ul>
+							</p>
+							<svg class="arrows">
+								<path class="a2" d="M0 20 L30 52 L60 20"></path>
+								<path class="a3" d="M0 40 L30 72 L60 40"></path>
+							</svg>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header> <!-- /Header -->
+
+	<div id="fh5co-about"> <!-- About me -->
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>About Me</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<ul class="info">
+						<li><span class="first-block">Full Name:</span><span class="second-block">Benjamin TS Colgan</span></li>
+						<li><span class="first-block">Age:</span><span class="second-block">31</span></li>		
+						<li><span class="first-block">Email:</span><a href ="mailto:bctecnica@gmail.com?subject=BCTecnica site enquiry">bctecnica@gmail.com</a></li>
+						<li><span class="first-block">Website:</span><span class="second-block">www.bctecnica.co.uk</span></li>
+						<li><span class="first-block">Location:</span><span class="second-block">Poole, Dorset, U.K.</span></li>
+					</ul>
+				</div>
+				<div class="col-md-8">
+					<h2>Hello World!</h2>
+					<p>I am a self-taught software engineer with a passion for front-end web development. 
+						I am an avid learner and always looking to learn about new and exciting concepts and technologies. 
+						I have a keen interest in both UX and UI design and everything to do with the user experience from research driven user perception through to typography, navigation and accessability.</p>
+					<p>I have been coding for about a year and a half now, I originally started my journey coding in java to building android apps as I loved making things people could see and interact with.
+						Whist building android apps I dipped my toes into some web development which I completely fell in with and is where I have been focusing all my work since.</p>
+				</div>
+			</div>
+		</div>
+	</div> <!-- /About me -->
+	
+	<div id="fh5co-features"> <!-- My skills -->
+		<div class="container">
+			<div class="services-padding">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+						<h2>My Skills</h2>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-4 text-center">
+						<div class="feature-left">
+							<span class="icon">
+								<img src="images/html-logo-100px.png" alt="HTML logo" style="border-radius: 100%;">
+							</span>
+							<div class="feature-copy">
+								<h3>HTML / XML</h3>
+								<p>I have a good understanding of structuring semantic HTML and its importance in web accessibility.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4 text-center">
+						<div class="feature-left">
+							<span class="icon">
+								<img src="images/css-logo-100px.png" alt="CSS logo" style="border-radius: 100%;">
+							</span>
+							<div class="feature-copy">
+								<h3>CSS</h3>
+								<p>Experienced in building both mobile first and responsive designed desktop sites using both CSS and frameworks like SASS.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4 text-center">
+						<div class="feature-left">
+							<span class="icon">
+								<img src="images/js-logo-100px.png" alt="JS logo" style="border-radius: 100%;">
+							</span>
+							<div class="feature-copy">
+								<h3>Javascript</h3>
+								<p>--Practice more JS and fill this section in when more projects are completed.--</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-4 text-center">
+						<div class="feature-left">
+							<span class="icon">
+								<img src="images/java-logo-100px.png" alt="Java logo" style="border-radius: 100%;">
+							</span>
+							<div class="feature-copy">
+								<h3>Java</h3>
+								<p>I have used Java on several android projects to build and maintain apps on the Google Play Store.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4 text-center">
+						<div class="feature-left">
+							<span class="icon">
+								<img src="images/frameworks-logo-100px.png" alt="Java logo" style="border-radius: 100%;">
+							</span>
+							<div class="feature-copy">
+								<h3>Frameworks</h3>
+								<p>I have worked on many projects using frameworks such as Bootstrap and the Android SDK.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4 text-center">
+						<div class="feature-left">
+							<span class="icon">
+								<img src="images/tools-logo-100px.png" alt="Tools logo" style="border-radius: 100%;">
+							</span>
+							<div class="feature-copy">
+								<h3>Software Tools</h3>
+								<p>I have used many different types of software tools including VS Code, Android Studio, Figma, Trello and GitHub.</p>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div> <!-- /My skills -->
+
+	<div id="fh5co-blog"> <!-- Projects -->
+		<div class="container"> <!-- websites -->
+			<div class="col-md-8 col-md-offset-2 text-center fh5co-heading mb-0">
+				<h2 class="mb-1">Projects</h2>
+				<h3>Websites</h3>
+			</div>
+
+			<div class="row">
+
+				<div class="col-md-4"> 
+					<div class="fh5co-blog">
+						<img src="images/under-construction.png" alt="under-construction" style="max-width: 100%;">
+						<div class="blog-text">
+							<h3><a href="#">Subaru Tecnica International</a></h3>
+							<p>Coming Soon- Project currently under development</p>
+							<ul class="stuff">
+								<li><button type="button" class="btn btn-primary"><a href="https://play.google.com/store/apps/details?id=com.tecnica.countingapp">See Live</a></button></li>
+								<li><button type="button" class="btn btn-outline-secondary"><a href="https://github.com/bctecnica/Counting-app">View Code</a></button></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4"> 
+					<div class="fh5co-blog">
+						<img src="images/under-construction.png" alt="under-construction" style="max-width: 100%;">
+						<div class="blog-text">
+							<h3><a href="#">Dorset Travel</a></h3>
+							<p>Coming Soon- Project currently under development</p>
+							<ul class="stuff">
+								<li><button type="button" class="btn btn-primary"><a href="https://play.google.com/store/apps/details?id=com.tecnica.countingapp">See Live</a></button></li>
+								<li><button type="button" class="btn btn-outline-secondary"><a href="https://github.com/bctecnica/Counting-app">View Code</a></button></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4"> 
+					<div class="fh5co-blog">
+						<img src="images/ga-site.png" alt="artists gallery snap" style="max-width: 100%;">
+						<div class="blog-text">
+							<h3><a href="#">Artists Gallery</a></h3>
+							<p>Website for a artist to help promote his artwork being displayed at a local Gallery.</p>
+							<h4>Skills used</h4>
+							<ul>
+								<li>Bootstrap 5</li>
+								<li>Desktop/mobile specific navigation</li>
+								<li>Performance optimized image loading</li>
+							</ul>
+							<ul class="stuff">
+								<li><button type="button" class="btn btn-primary"><a href="https://bctecnica.github.io/Artists-Gallery/">See Live</a></button></li>
+								<li><button type="button" class="btn btn-outline-secondary"><a href="https://github.com/bctecnica/Artists-Gallery">View Code</a></button></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="container"> <!-- web apps -->
+			<div class="col-md-8 col-md-offset-2 text-center fh5co-heading mb-0">
+				<h3>Web Apps</h3>
+			</div>
+			<div class="row">
+
+				<div class="col-md-4"> 
+					<div class="fh5co-blog">
+						<img src="images/under-construction.png" alt="under-construction" style="max-width: 100%;">
+						<div class="blog-text">
+							<h3><a href="#">Who's in Space?</a></h3>
+							<p>Coming Soon- Project currently under development</p>
+							<ul class="stuff">
+								<li><button type="button" class="btn btn-primary"><a href="https://play.google.com/store/apps/details?id=com.tecnica.countingapp">See Live</a></button></li>
+								<li><button type="button" class="btn btn-outline-secondary"><a href="https://github.com/bctecnica/Counting-app">View Code</a></button></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4"> 
+					<div class="fh5co-blog">
+						<img src="images/under-construction.png" alt="under-construction" style="max-width: 100%;">
+						<div class="blog-text">
+							<h3><a href="#">Connect 4</a></h3>
+							<p>Coming Soon- Project currently under development</p>
+							<ul class="stuff">
+								<li><button type="button" class="btn btn-primary"><a href="https://play.google.com/store/apps/details?id=com.tecnica.countingapp">See Live</a></button></li>
+								<li><button type="button" class="btn btn-outline-secondary"><a href="https://github.com/bctecnica/Counting-app">View Code</a></button></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4"> 
+					<div class="fh5co-blog">
+						<img src="images/under-construction.png" alt="under-construction" style="max-width: 100%;">
+						<div class="blog-text">
+							<h3><a href="#">iPhone Calculator</a></h3>
+							<p>Coming Soon- Project currently under development</p>
+							<ul class="stuff">
+								<li><button type="button" class="btn btn-primary"><a href="https://play.google.com/store/apps/details?id=com.tecnica.countingapp">See Live</a></button></li>
+								<li><button type="button" class="btn btn-outline-secondary"><a href="https://github.com/bctecnica/Artists-Gallery">View Code</a></button></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		
+		<div class="container">  <!-- android apps -->
+			<div class="col-md-8 col-md-offset-2 text-center fh5co-heading mb-0">
+				<h3>Android Apps</h3>
+			</div>
+			<div class="row">
+				
+				<div class="col-md-4">
+					<div class="fh5co-blog">
+						<img src="images/stormy_app_icon.png" alt="stormy logo" style="max-width: 100%;">
+						<div class="blog-text">
+							<h3>Stormy</h3>
+							<p>App to track the distance of lightning strikes from you, the app also has a built in forecast to tell you the likelihood of a storm over the next 7-days using the OpenWeather API.</p>
+							<h4>Skills used</h4>
+							<ul>
+								<li>Use of JSON returned from the OpenWeather API</li>
+								<li>UNIX time/date functions</li>
+							</ul>
+							<ul class="stuff">
+								<li><button type="button" class="btn btn-primary"><a href="https://play.google.com/store/apps/details?id=com.bctecnica.stormyapp">See Live</a></button></li>
+								<li><button type="button" class="btn btn-outline-secondary"><a href="https://github.com/bctecnica/Stormy">View Code</a></button></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4"> 
+					<div class="fh5co-blog">
+						<img src="images/scavanger_hunt_logo.png" alt="scavenger hunt logo" style="max-width: 100%;">
+						<div class="blog-text">
+							<h3>Scavenger Hunt</h3>
+							<p>A kids scavanger hunt game made to be used both indoors and outside with everything stored in app so it can be used offline once installed.</p>
+							<h4>Skills used</h4>
+							<ul>
+								<li>Child friendly designed U.I.</li>
+								<li>Use of Arrays and their functions</li>
+							</ul>
+							<ul class="stuff">
+								<li><button type="button" class="btn btn-primary"><a href="https://play.google.com/store/apps/details?id=com.bctecnica.houseHunt">See Live</a></button></li>
+								<li><button type="button" class="btn btn-outline-secondary"><a href="https://github.com/bctecnica/Scavenger-Hunt">View Code</a></button></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-4"> 
+					<div class="fh5co-blog">
+						<img src="images/counting_app_icon.png" alt="counting app logo" style="max-width: 100%;">
+						<div class="blog-text">
+							<h3><a href="#">Counting App</a></h3>
+							<p>Designed to help retail staff during the pandemic. It has been optimized to reduce battery usage and to make it as easy as possible to use for extended periods of time.</p>
+							<h4>Skills used</h4>
+							<ul>
+								<li>Agile User lead development</li>
+								<li>Android activity lifecycle integration</li>
+							</ul>
+							<ul class="stuff">
+								<li><button type="button" class="btn btn-primary"><a href="https://play.google.com/store/apps/details?id=com.tecnica.countingapp">See Live</a></button></li>
+								<li><button type="button" class="btn btn-outline-secondary"><a href="https://github.com/bctecnica/Counting-app">View Code</a></button></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div> <!-- /Projects -->
+	
+	<div id="fh5co-started" class="fh5co-bg-dark pb-0"> <!-- Contact -->
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+				<h2>Contact</h2>
+				<p>If you feel like I would be a good fit for you or your company please don't hesitate to reach out to me.</p>
+				<a class="btn btn-default btn-lg" href ="mailto:bctecnica@gmail.com?subject=Job enquiry" >Email Me</a>
+				<footer> <!-- Footer -->
+					<div class="footer-basic"> 
+						<p class="copyright">BCTecnica © 2022</p>
+					</div> 
+				</footer> <!-- /Footer-->
+			</div>
+		</div>
+	</div> <!-- /Contact -->
+	
+
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Main -->
+	<script src="js/main.js"></script>
+
+	</body>
+</html>
+
