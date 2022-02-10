@@ -200,7 +200,7 @@ h1, h2, h3, h4, h5, h6, figure {
 @media screen and (max-width: 768px) {
   #fh5co-header .display-tc h1,
   .fh5co-cover .display-tc h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
   #fh5co-header .display-tc h1 span:before,
   .fh5co-cover .display-tc h1 span:before {
