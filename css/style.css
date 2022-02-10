@@ -21,12 +21,13 @@ body {
 }
 
 .blinking-caret {
+
   color: #fff;
   overflow: hidden; 
   border-right: .15em solid white; /* The typwriter cursor */
   white-space: nowrap; 
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em;
+  letter-spacing: .1em;
   animation: blink-caret 1s step-end infinite;
 }
 
@@ -49,8 +50,8 @@ body {
 	stroke: #fff;
 	fill: transparent;
 	stroke-width: 1.5px;	
-	animation: arrow 2s infinite;
-	-webkit-animation: arrow 2s infinite; 
+	animation: arrow 3s infinite;
+	-webkit-animation: arrow 3s infinite; 
 }
 
 @keyframes arrow
