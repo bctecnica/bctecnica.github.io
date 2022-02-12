@@ -24,6 +24,7 @@ body {
 
   color: #fff;
   overflow: hidden; 
+  padding-left: .15em;
   border-right: .15em solid white; /* The typwriter cursor */
   white-space: nowrap; 
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
