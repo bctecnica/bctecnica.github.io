@@ -20,6 +20,10 @@ body {
   background: #fff;
 }
 
+.matrix-effect {
+  position: absolute;
+}
+
 .blinking-caret {
 
   color: #fff;
