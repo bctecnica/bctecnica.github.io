@@ -22,10 +22,10 @@ body {
 
 .matrix-effect {
   position: absolute;
+  height: 100%;
 }
 
 .blinking-caret {
-
   color: #fff;
   overflow: hidden; 
   padding-left: .15em;
