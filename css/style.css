@@ -20,9 +20,13 @@ body {
   background: #fff;
 }
 
+.header-container {
+  height: 100vh;
+}
+
 .matrix-effect {
   position: absolute;
-  height: 100%;
+  height: 100vh;
 }
 
 .blinking-caret {
@@ -83,10 +87,6 @@ body {
 .arrows path.a3 {	
 	animation-delay:0s;
 	-webkit-animation-delay:0s;
-}
-
-.header-container {
-  height: 100vh;
 }
 
 /* =======================================================
