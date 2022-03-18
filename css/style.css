@@ -29,21 +29,22 @@ body {
   height: 100vh;
 }
 
+.name {
+  letter-spacing: .05em;
+}
+
 .blinking-caret {
-  color: #fff;
+  color: #000;
   overflow: hidden; 
-  padding-left: .15em;
-  border-right: .15em solid white; /* The typwriter cursor */
+  border-right: .10em solid black;
   white-space: nowrap; 
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .1em;
   animation: blink-caret 1s step-end infinite;
 }
 
 /* The typewriter cursor effect */
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  50% { border-color: rgb(255, 255, 255) }
+  50% { border-color: rgb(0, 0, 000) }
 }
 
 .arrows {
