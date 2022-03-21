@@ -24,6 +24,15 @@ body {
   height: 100vh;
 }
 
+h3 span {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.icon img {
+  box-shadow: rgba(0,0,0,0.2) 0 0 10px;
+}
+
 .matrix-effect {
   position: absolute;
   height: 100vh;
@@ -36,7 +45,7 @@ body {
 .blinking-caret {
   color: #000;
   overflow: hidden; 
-  border-right: .10em solid black;
+  border-right: .05em solid black;
   white-space: nowrap; 
   animation: blink-caret 1s step-end infinite;
 }
