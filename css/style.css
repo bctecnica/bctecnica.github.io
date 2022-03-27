@@ -25,12 +25,19 @@ body {
 }
 
 h3 span {
-  font-size: 20px;
-  line-height: 26px;
+  font-size: 18px;
+  line-height: 25px;
 }
 
 .icon img {
   box-shadow: rgba(0,0,0,0.2) 0 0 10px;
+  /* transition: cubic-bezier(0.075, 0.82, 0.165, 1); */
+  transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.icon img:hover {
+  /* transform: scale(1.1) rotate(5deg); */
+  transform: scale(1.05);
 }
 
 .matrix-effect {
@@ -40,6 +47,7 @@ h3 span {
 
 .name {
   letter-spacing: .05em;
+  font-size: 4rem;
 }
 
 .blinking-caret {
@@ -53,7 +61,7 @@ h3 span {
 /* The typewriter cursor effect */
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  50% { border-color: rgb(0, 0, 000) }
+  50% { border-color: #FF9000 }
 }
 
 .arrows {
