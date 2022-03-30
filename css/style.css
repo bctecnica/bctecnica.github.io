@@ -53,7 +53,7 @@ h3 span {
 .blinking-caret {
   color: #000;
   overflow: hidden; 
-  border-right: .1em solid black;
+  border-right: .06em solid black;
   white-space: nowrap; 
   animation: blink-caret 1s step-end infinite;
 }
@@ -70,7 +70,7 @@ h3 span {
 	position: absolute;
 	left: 50%;
 	margin-left: -30px;
-	bottom: 20px;
+	bottom: 30px;
 }
 
 .arrows path {
