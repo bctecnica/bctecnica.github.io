@@ -31,13 +31,6 @@ h3 span {
 
 .icon img {
   box-shadow: rgba(0,0,0,0.2) 0 0 10px;
-  /* transition: cubic-bezier(0.075, 0.82, 0.165, 1); */
-  transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-
-.icon img:hover {
-  /* transform: scale(1.1) rotate(5deg); */
-  transform: scale(1.05);
 }
 
 .matrix-effect {
@@ -50,10 +43,10 @@ h3 span {
   font-size: 4rem;
 }
 
-.blinking-caret {
+.blinking-caret-black{
   color: #000;
   overflow: hidden; 
-  border-right: .06em solid black;
+  border-right: .08em solid black;
   white-space: nowrap; 
   animation: blink-caret 1s step-end infinite;
 }
@@ -62,6 +55,20 @@ h3 span {
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: #000 }
+}
+
+.blinking-caret-orange{
+  color: #000;
+  overflow: hidden; 
+  border-right: .06em solid black;
+  white-space: nowrap; 
+  animation: blink-caret-orange 1s step-end infinite;
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret-orange {
+  from, to { border-color: transparent }
+  50% { border-color: #FF9000 }
 }
 
 .arrows {
@@ -105,6 +112,22 @@ h3 span {
 .arrows path.a3 {	
 	animation-delay:0s;
 	-webkit-animation-delay:0s;
+}
+
+.www-container {
+  background-color: white; 
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+
+.www {
+  font-family: sans-serif;
+  padding: 4rem 3rem 0rem 1.5rem; 
+  color: #FF9000 !important; 
+  font-size: 4rem !important;
 }
 
 /* =======================================================
