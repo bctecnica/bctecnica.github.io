@@ -114,22 +114,47 @@ h3 span {
 	-webkit-animation-delay:0s;
 }
 
-.www-container {
-  background-color: white; 
-  border-radius: 100%;
+.icon-container {
   width: 150px;
   height: 150px;
   margin: 0 auto;
   margin-bottom: 2rem;
+  padding-top: 3rem;
+
 }
 
 .www {
+  background-color: white; 
   font-family: sans-serif;
-  padding: 4rem 3rem 0rem 1.5rem; 
+  padding: 5.5rem 3rem 0rem 1.5rem; 
   color: #FF9000 !important; 
   font-size: 4rem !important;
 }
 
+.skill-text {
+  padding: 1.5rem 2rem 3rem 2rem;
+  margin: 0rem 1rem 0rem 1rem;
+  color: white !important;
+}
+
+.feature-left {
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+  border-radius: 20px;
+}
+
+.skill-title {
+  margin-top: 6rem;
+  margin-bottom: 1rem;
+
+}
+
+.skill-icon {
+  border-radius: 100%; 
+  width: 150px;
+  height: 150px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
 /* =======================================================
 *
 * 	Template Style 
