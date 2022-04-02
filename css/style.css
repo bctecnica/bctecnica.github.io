@@ -120,7 +120,6 @@ h3 span {
   margin: 0 auto;
   margin-bottom: 2rem;
   padding-top: 3rem;
-
 }
 
 .www {
@@ -155,6 +154,244 @@ h3 span {
   height: 150px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
 }
+
+/* -----Andy------ */
+.andy, .head, .antennas, .left-antenna, .right-antenna, .eyes,
+.left-eye, .right-eye, .body, .arms, .left-arm, .right-arm, .legs,
+.left-leg, .right-leg {
+  margin: 0;
+	padding: 0;
+	border: 0;
+  line-height: 0;
+}
+
+.andys-background {
+  background-color: white;
+  border-radius: 100%; 
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  margin-top: 3rem;
+  /* position: relative;
+  left: 100px;
+  top: 30px */
+}
+
+.andys-house {
+  position: relative;
+  top: -177px;
+  left: 1px;
+  margin: auto;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.andy {
+  -webkit-transform: scale(.4);
+  transform: scale(.4);
+}
+
+.andy, .antennas, .eyes, .arms, .legs {
+  list-style-type: none;
+}
+
+.head, .left-antenna, .right-antenna, .body, .left-arm, .right-arm, .left-leg, .right-leg {
+  background-color: #FF9000;
+}
+
+.head, .body {
+  display: block;
+  margin: auto;
+}
+
+.left-antenna, .right-antenna, .left-eye, .right-eye, .left-arm, .right-arm, .left-leg, .right-leg {
+  display: inline-block;
+}
+
+/* HEAD */
+
+.head {
+  position: relative;
+  width: 9.2em;
+  height: 4.2em;
+  border-radius: 50% / 100% 100% 0 0;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.antennas, .eyes {
+  position: absolute;
+  width: 9.2em;
+}
+
+/* ANTENNAS */
+
+.antennas {
+  top: -1.14em;
+  left: 2.46em;
+}
+
+.left-antenna, .right-antenna {
+  width: 0.3em;
+  height: 1.9em;
+  border-radius: 0.24em;
+}
+
+.left-antenna {
+  -webkit-transform-origin: 0% 100%;
+  transform-origin: 0% 100%;
+  -webkit-transform: rotate(-30deg);
+  transform: rotate(-30deg);
+}
+
+.right-antenna {
+  margin-left: 3.4em;
+  -webkit-transform-origin: 100% 100%;
+  transform-origin: 100% 100%;
+  -webkit-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+
+/* EYES */
+
+.eyes{
+  top: 1.78em;
+  left: 2.06em;
+}
+
+.left-eye, .right-eye {
+  width: 0.76em;
+  height: 0.76em;
+  background-color: #fff;
+  border-radius: 50%;
+  /*-webkit-box-shadow: 0em 0em 0.5em 0.5em rgba(255,255,255,0.2);
+  box-shadow: 0em 0em 0.5em 0.5em rgba(255,255,255,0.2);*/
+}
+
+.right-eye {
+  margin-left: 3.36em;
+}
+
+/* BODY */
+
+.body {
+  position: relative;
+  top: 0.36em;
+  width: 9.2em;
+  height: 7.68em;
+  border-radius: 0em 0em 1.08em 1.08em;
+}
+
+.arms, .legs {
+  position: absolute;
+}
+
+/* ARMS */
+
+.arms {
+  width: 15em;
+  top: -0.18em;
+  left: -2.36em;
+}
+
+.left-arm, .right-arm {
+  width: 2em;
+  height: 6.24em;
+  border-radius: 1em;
+  -webkit-transform-origin: 50% 0%;
+  transform-origin: 50% 0%;
+}
+
+.left-arm {
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+.right-arm {
+  margin-left: 9.3em;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+/* LEGS */
+
+.legs {
+  top: 1.8em;
+  left: 1.8em;
+}
+
+.left-leg, .right-leg {
+  width: 2.06em;
+  height: 3.5em;
+  margin-top: 5.66em;
+  border-radius: 0em 0em 1.04em 1.04em;
+}
+
+.right-leg {
+  margin-left: 1.28em;
+}
+
+/* ANIMATIONS */
+.anim-l-eye, .anim-r-eye {
+  -webkit-animation: blinkAnimation 6s linear 0s infinite alternate;
+  animation: blinkAnimation 6s linear 0s infinite alternate;
+}
+
+.anim-l-arm {
+  -webkit-animation: leftArmAnimation 16s ease 0s infinite;
+  animation: leftArmAnimation 16s ease 0s infinite;
+}
+
+@-webkit-keyframes blinkAnimation {
+  30% {-webkit-transform: scale(1,1);}
+  31% {-webkit-transform: scale(1,0);}
+  32% {-webkit-transform: scale(1,1);}
+  98% {-webkit-transform: scale(1,1);}
+  99% {-webkit-transform: scale(1,0);}
+  100% {-webkit-transform: scale(1,1);}
+}
+
+@keyframes blinkAnimation {
+  30% {transform: scale(1,1);}
+  31% {transform: scale(1,0);}
+  32% {transform: scale(1,1);}
+  98% {transform: scale(1,1);}
+  99% {transform: scale(1,0);}
+  100% {transform: scale(1,1);}
+}
+
+@-webkit-keyframes leftArmAnimation {
+  29% {-webkit-transform: rotate(0deg);}
+  30% {-webkit-transform: rotate(-1deg);}
+  31% {-webkit-transform: rotate(130deg);}
+  32% {-webkit-transform: rotate(110deg);}
+  33% {-webkit-transform: rotate(127deg);}
+  34% {-webkit-transform: rotate(124deg);}
+  36% {-webkit-transform: rotate(0deg);}
+  91% {-webkit-transform: rotate(0deg);}
+  95% {-webkit-transform: rotate(30deg);}
+  96% {-webkit-transform: rotate(-4deg);}
+  97% {-webkit-transform: rotate(0deg);}
+  100% {-webkit-transform: rotate(0deg);}
+}
+
+@keyframes leftArmAnimation {
+  29% {transform: rotate(0deg);}
+  30% {transform: rotate(-1deg);}
+  31% {transform: rotate(130deg);}
+  32% {transform: rotate(110deg);}
+  33% {transform: rotate(127deg);}
+  34% {transform: rotate(124deg);}
+  36% {transform: rotate(0deg);}
+  91% {transform: rotate(0deg);}
+}
+
+
+
+
+
 /* =======================================================
 *
 * 	Template Style 
