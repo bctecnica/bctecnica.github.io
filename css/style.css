@@ -574,8 +574,8 @@ h3 span {
   stroke-dasharray: 2100;
   stroke-dashoffset: 2100;
   
-  animation: spanner-offset infinite 10s 1s reverse, 
-             fill-it infinite 10s 1s reverse;
+  animation: spanner-offset infinite 10s .1s reverse, 
+             fill-it infinite 10s .1s reverse;
 }
 
 .draw-driver {
@@ -584,8 +584,8 @@ h3 span {
   stroke-dasharray: 3000;
   stroke-dashoffset: 3000;
   
-  animation: driver-offset infinite 10s 1s reverse,
-             fill-it infinite 10s 1s reverse;
+  animation: driver-offset infinite 10s .1s reverse,
+             fill-it infinite 10s .1s reverse;
 }
 
 
