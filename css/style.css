@@ -349,8 +349,8 @@ h3 span {
 }
 
 .anim-eyes {
-  -webkit-animation: eyesAnimation 50s ease-in-out 0s infinite alternate;
-  animation: eyesAnimation 50s ease-in-out 0s infinite alternate;
+  -webkit-animation: eyesAnimation 35s ease-in-out 0s infinite alternate;
+  animation: eyesAnimation 35s ease-in-out 0s infinite alternate;
 }
 
 .anim-l-eye, .anim-r-eye {
