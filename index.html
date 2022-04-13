@@ -168,7 +168,23 @@
 
 				<div class="col-md-12"> 
 					<div class="fh5co-blog">
-						<img src="images/dorset-ramblers.png" alt="artists gallery snap" style="display: block; margin-left: auto; margin-right: auto; width: 50%;">
+						<!-- Slideshow container -->
+						<div class="slideshow-container">
+
+							<!-- Full-width images with number and caption text -->
+							<div class="mySlides slide-fade">
+							<img src="images/dorset-ramblers.png" style="width:100%">
+							</div>
+						
+							<div class="mySlides slide-fade">
+							<img src="img/stormy-play.png" style="width:100%">
+							</div>
+						
+							<!-- Next and previous buttons -->
+							<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+							<a class="next" onclick="plusSlides(1)">&#10095;</a>
+						</div>
+						<!-- <img src="images/dorset-ramblers.png" alt="artists gallery snap" style="display: block; margin-left: auto; margin-right: auto; width: 70%;"> -->
 						<div class="blog-text">
 							<h3><a href="#">Dorset Ramblers</a></h3>
 							<p>Having lived in Dorset for most of my life and being someone who loves days out exploring often ankle deep in mud somewhere and a love for photography I wanted to combine that with my skills as a web developer to create a website to showcase some of the highlights from my local area as well as improve my skills in both design and front-end optimization to create a beautiful yet fast loading and responsive website.<br><br></p>
@@ -188,7 +204,22 @@
 
 				<div class="col-md-6"> 
 					<div class="fh5co-blog">
-						<img src="images/calculator.png" alt="under-construction" style="max-width: 100%;">
+						<div class="slideshow-container">
+
+							<!-- Full-width images with number and caption text -->
+							<div class="mySlides2 side-fade">
+							  <img src="images/calculator.png" style="width:100%">
+							</div>
+						  
+							<div class="mySlides2 slide-fade">
+							  <img src="images/calculator-land.png" style="width:100%">
+							</div>
+							
+							<!-- Next and previous buttons -->
+							<a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
+							<a class="next" onclick="plusSlides2(1)">&#10095;</a>
+						  </div>
+						<!-- <img src="images/calculator.png" alt="under-construction" style="max-width: 100%;"> -->
 						<div class="blog-text">
 							<h3><a href="#">iPhone Calculator</a></h3>
 							<p>Wanting to improve on something i used myself almost everyday but with my own personal twist I created a web version of the iconic iPhone calculator. Rather then having lots of complex mathematical functions when in landscape I'd never really found a use for in day to day life I instead added functions for things I might use almost everyday. I also built the site as a PWA meaning it could be installed as a near native app on users phones completely replacing the need for the original.</p>
@@ -207,7 +238,23 @@
 
 				<div class="col-md-6"> 
 					<div class="fh5co-blog">
-						<img src="images/whos-in-space-temp.png" alt="under-construction" style="max-width: 100%;">
+						<div class="slideshow-container">
+
+							<!-- Full-width images with number and caption text -->
+							<div class="mySlides3 slide-fade">
+							  <img src="images/whos-in-space-temp.png" style="width:100%">
+							</div>
+						  
+							<div class="mySlides3 slide-fade">
+							  <img src="images/whos-in-space-temp.png" style="width:100%">
+							</div>
+
+							<!-- Next and previous buttons -->
+							<a class="prev" onclick="plusSlides3(-1)">&#10094;</a>
+							<a class="next" onclick="plusSlides3(1)">&#10095;</a>
+						</div>
+						  
+						<!-- <img src="images/whos-in-space-temp.png" alt="under-construction" style="max-width: 100%;"> -->
 						<div class="blog-text">
 							<h3><a href="#">Who's in Space</a></h3>
 							<p>--Project currently under development--<br><br>I am currently taking a course on javascript animation as I know animation is becoming an increasingly important part of web development also this project will be based largely around animations so I thought now would be the best time to improve my knowledge on the subject before beginning this project. Please check back here soon for further updates.<br><br></p>
@@ -302,6 +349,7 @@
 	<!-- Main -->
 	<script src="js/main.js"></script>
 	<script src="js/matrix-effect.js"></script>
+	<script src="js/slideshow.js"></script>
 
 
 	</body>
