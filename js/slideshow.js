@@ -32,12 +32,12 @@ showSlides2(slideIndex2);
 // Next/previous controls
 function plusSlides2(n) {
     showSlides2(slideIndex2 += n);
-  }
+}
   
   // Thumbnail image controls
   function currentSlide2(n) {
     showSlides2(slideIndex2 = n);
-  }
+}
 
 function showSlides2(n) {
     let i;
@@ -50,21 +50,21 @@ function showSlides2(n) {
   
     slides[slideIndex2-1].style.display = "block";
   
-  }
+}
 
-  // --------Slide3---------
+// --------Slide3---------
 let slideIndex3 = 1;
 showSlides3(slideIndex3);
 
 // Next/previous controls
 function plusSlides3(n) {
     showSlides3(slideIndex3 += n);
-  }
+}
   
   // Thumbnail image controls
   function currentSlide3(n) {
     showSlides3(slideIndex3 = n);
-  }
+}
 
 function showSlides3(n) {
     let i;
@@ -77,4 +77,4 @@ function showSlides3(n) {
   
     slides[slideIndex3-1].style.display = "block";
   
-  }
+}

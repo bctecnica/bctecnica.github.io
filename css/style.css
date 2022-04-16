@@ -43,20 +43,6 @@ h3 span {
   font-size: 4rem;
 }
 
-.blinking-caret-black{
-  color: #000;
-  overflow: hidden; 
-  border-right: .08em solid black;
-  white-space: nowrap; 
-  animation: blink-caret 1s step-end infinite;
-}
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: #000 }
-}
-
 .blinking-caret-orange{
   color: #000;
   overflow: hidden; 
