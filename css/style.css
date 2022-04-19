@@ -362,32 +362,32 @@ h3 span {
 /* ANIMATIONS */
 @-webkit-keyframes leftAntennaAnimation {
   30% {-webkit-transform: rotate(-30deg);}
-  31% {-webkit-transform: rotate(-25deg);}
-  52% {-webkit-transform: rotate(-25deg);}
+  31% {-webkit-transform: rotate(-15deg);}
+  52% {-webkit-transform: rotate(-15deg);}
   53% {-webkit-transform: rotate(-30deg);}
   100% {-webkit-transform: rotate(-30deg);}
 }
 
 @keyframes leftAntennaAnimation {
   30% {transform: rotate(-30deg);}
-  31% {transform: rotate(-25deg);}
-  52% {transform: rotate(-25deg);}
+  31% {transform: rotate(-15deg);}
+  52% {transform: rotate(-15deg);}
   53% {transform: rotate(-30deg);}
   100% {transform: rotate(-30deg);}
 }
 
 @-webkit-keyframes rightAntennaAnimation {
   30% {-webkit-transform: rotate(30deg);}
-  31% {-webkit-transform: rotate(25deg);}
-  52% {-webkit-transform: rotate(25deg);}
+  31% {-webkit-transform: rotate(15deg);}
+  52% {-webkit-transform: rotate(15deg);}
   53% {-webkit-transform: rotate(30deg);}
   100% {-webkit-transform: rotate(30deg);}
 }
 
 @keyframes rightAntennaAnimation {
   30% {transform: rotate(30deg);}
-  31% {transform: rotate(25deg);}
-  52% {transform: rotate(25deg);}
+  31% {transform: rotate(15deg);}
+  52% {transform: rotate(15deg);}
   53% {transform: rotate(30deg);}
   100% {transform: rotate(30deg);}
 }
