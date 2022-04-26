@@ -14,7 +14,7 @@ body {
   overscroll-behavior-y: none;
   font-family: "Space Mono", Arial, serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 1.7;
   color: #4d4d4d;
   background: #fff;
@@ -40,7 +40,7 @@ h3 span {
 
 .name {
   letter-spacing: .05em;
-  font-size: 4rem;
+  font-size: 3.5rem;
 }
 
 .blinking-caret-orange{
@@ -140,7 +140,7 @@ h3 span {
 }
 
 em {
-  text-decoration: underline
+  text-decoration: underline;
 }
 
 /* =======================================================
@@ -549,10 +549,12 @@ em {
 }
 
 .tools-svg {
+  margin-bottom: 1rem;
   position: relative;
   top: -150px;
-  left: 100px;
-  margin: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 150px;
   height: 150px;
   transform: scale(.6);
@@ -876,7 +878,7 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #fff;
 }
 #fh5co-features .feature-left p {
-  font-size: 16px;
+  font-size: 15px;
   color: rgba(255, 255, 255, 0.7);
 }
 #fh5co-features .feature-left p:last-child {
@@ -1026,7 +1028,7 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #000;
 }
 .fh5co-heading p {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.5;
   color: #828282;
 }
