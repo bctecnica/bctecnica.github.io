@@ -18,6 +18,7 @@ body {
   line-height: 1.7;
   color: #4d4d4d;
   background: #fff;
+  max-width: 100vw;
 }
 
 .header-container {
@@ -141,6 +142,13 @@ h3 span {
 
 em {
   text-decoration: underline;
+}
+
+.vertically-center {
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 /* =======================================================
@@ -744,6 +752,10 @@ h1, h2, h3, h4, h5, h6, figure {
   display: table-cell;
   vertical-align: middle;
   height: 600px;
+  width: 700px;
+  margin-left:auto; 
+  margin-right:auto;
+
 }
 #fh5co-header .display-tc h1, #fh5co-header .display-tc h2, #fh5co-header .display-tc h3,
 .fh5co-cover .display-tc h1,
