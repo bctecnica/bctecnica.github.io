@@ -1,0 +1,82 @@
+.page1 {
+    font-family: "Poppins", sans-serif;
+    background-color: #FF9000;
+    height: 100vh;
+  }
+  
+  .top-logo {
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo {
+    padding-top: 2rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+  }
+  
+  .hero-section {
+    height: 80vh;
+    margin: 0% 10%;
+  }
+  
+  .hero-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .cta {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .cta-text {
+    display: flex;
+    font-size: 1rem;
+  }
+  
+  .cta-text h2 {
+    /* used to hide text until it appears so it looks like it slides in from nowhere */
+    overflow: hidden;
+  }
+
+  .cta-text .left,
+  .cta-text .right,
+  .cta-text .slide-left,
+  .cta-text .slide-right {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+  
+  .cta-text span {
+    font-family: "poppins";
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white;
+    padding: 0rem 0.4rem;
+    /* needed to move position  */
+    display: block;
+    text-shadow: rgba(0, 0, 0, 0.2) 0px 0px 20px;
+  }
+  
+  .cta-btn {
+    max-width: 200px;
+    border-radius: 100%;
+    border: white 1.5px solid;
+    margin-bottom: 2.5rem;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 20px;
+  }
+  
+  
