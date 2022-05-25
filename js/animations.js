@@ -15,13 +15,13 @@ const tl = gsap.timeline({
   );
   
   // timeline for header animation
-  tl.fromTo(".cta-btn", { y: 8, scale: .85, opacity: 0 }, { y: 0,scale: 1 , opacity: 1, duration: 1}, "<50%");
   tl.fromTo(".slide-left", { x: "100%", opacity: 0.5 }, { x: 0, opacity: 1 }, "<40%");
   tl.fromTo(".slide-right", { x: "-100%", opacity: 0.5 }, { x: 0, opacity: 1 }, "<");
-  tl.fromTo(".cta1", { x: "-100%", opacity: 0.5 }, { x: 0, opacity: 1 }, "<40%");
+  tl.fromTo(".cta-btn", { y: 8, scale: .85, opacity: 0 }, { y: 0,scale: 1 , opacity: 1, duration: 1}, "<40%");
+  tl.fromTo(".cta1", { x: "-100%", opacity: 0.5 }, { x: 0, opacity: 1 }, "<30%");
   tl.fromTo(".cta2", { y: "100%", opacity: 0.5 }, { y: 0, opacity: 1 }, "<40%");
-  tl.fromTo(".cta3", { y: "-100%", opacity: 0.5 }, { y: 0, opacity: 1 }, "<40%");
-  tl.fromTo(".cta4", { x: "-100%", opacity: 0.5 }, { x: 0, opacity: 1 }, "<40%");
+  tl.fromTo(".cta3", { y: "-100%", opacity: 0.5 }, { y: 0, opacity: 1 }, "<");
+  tl.fromTo(".cta4", { x: "-100%", opacity: 0.5 }, { x: 0, opacity: 1 }, "<30%");
   tl.fromTo(".cta5", { y: "100%", opacity: 0.5 }, { y: 0, opacity: 1 }, "<40%");
   tl.fromTo(".cta6", { y: "-100%", opacity: 0.5 }, { y: 0, opacity: 1 }, "<");
   tl.fromTo(".arrows", {opacity: 0 }, {opacity: 1, delay: 3.5, duration: 3 });
@@ -45,5 +45,5 @@ const tl = gsap.timeline({
   gsap.fromTo(
     ".letter",
     { y: "100%" },
-    { y: 0, delay: 4.5, stagger: 0.1, ease: "back.out(3)" }
+    { y: 0, delay: 3.5, stagger: 0.1, ease: "back.out(3)" }
   );
