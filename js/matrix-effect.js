@@ -24,7 +24,7 @@ function draw()
 {
 	//Black BG for the canvas
 	//translucent BG to show trail
-	ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
+	ctx.fillStyle = "rgba(100, 100, 100, 0.05)";
 	ctx.fillRect(0, 0, c.width, c.height);
 	
 	ctx.fillStyle = "#fff"; //white text

@@ -24,8 +24,8 @@ const tl = gsap.timeline({
   tl.fromTo(".cta4", { x: "-100%", opacity: 0.5 }, { x: 0, opacity: 1 }, "<30%");
   tl.fromTo(".cta5", { y: "100%", opacity: 0.5 }, { y: 0, opacity: 1 }, "<40%");
   tl.fromTo(".cta6", { y: "-100%", opacity: 0.5 }, { y: 0, opacity: 1 }, "<");
-  tl.fromTo(".scroll-text", {opacity: 0 }, {opacity: 1, delay: 4, duration: 3 });
-  tl.fromTo(".arrows", {opacity: 0 }, {opacity: 1 }, "<");
+  tl.fromTo(".arrows", {opacity: 0 }, {opacity: 1, delay: 3, duration: 2});
+  tl.fromTo(".scroll-text", {opacity: 0 }, {opacity: 1, duration: 2}, "<");
 
   
   //Split text alternative
