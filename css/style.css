@@ -129,8 +129,7 @@ h3 span {
 .feature-left {
   background: rgba(250, 146, 10, 0.1);
   border-radius: 16px;
-  backdrop-filter: blur(3px);
-  -webkit-backdrop-filter: blur(3px);
+  background-color: #f58b00;
   /* border: 1px solid rgba(255, 255, 255, 0.3); */
    border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 16px;
@@ -737,7 +736,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background-color: transparent;
   background-size: cover;
   position: relative;
-  /* max-height: 100vh; */
+  height: 100%;
 
   width: 100%;
   overflow:hidden;
