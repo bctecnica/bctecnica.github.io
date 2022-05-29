@@ -70,6 +70,11 @@ h3 span {
 	bottom: 0px;
 }
 
+@media only screen and (max-width: 600px) {
+  .arrows {
+    bottom: 60px;
+  }
+}
 .arrows path {
 	stroke: #FF9000;
 	fill: transparent;

@@ -97,6 +97,11 @@
     .top-logo {
         min-height: 6vh;
     }
+
+    .scroll-text {
+        z-index: 5000;
+        bottom: 50px; 
+    }
 }
 
 
