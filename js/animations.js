@@ -2,20 +2,22 @@ const tl = gsap.timeline({
     defaults: { duration: .8, ease: "Power3.easeOut" },
   });
   
+
+  gsap.set(".hero-img", { display: "inline-block", delay: .8 });
   tl.fromTo(
     ".hero-img",
     { scale: 1.3, borderRadius: "0rem" },
     {
       scale: 1,
       borderRadius: "3rem",
-      delay: 0.35,
+      delay: .8,
       duration: 2.5,
       ease: "elastic.out(1.5,1)",
     }
   );
   
   // timeline for header animation
-  tl.fromTo(".slide-left", { x: "100%", opacity: 0.5 }, { x: 0, opacity: 1 }, "<30%");
+  tl.fromTo(".slide-left", { x: "100%", opacity: 0.5 }, { x: 0, opacity: 1}, "<30%");
   tl.fromTo(".slide-right", { x: "-100%", opacity: 0.5 }, { x: 0, opacity: 1 }, "<");
   tl.fromTo(".cta-btn", { y: 8, scale: .85, opacity: 0 }, { y: 0,scale: 1 , opacity: 1, duration: 1}, "<40%");
   tl.fromTo(".cta1", { x: "-100%", opacity: 0.5 }, { x: 0, opacity: 1 }, "<30%");
@@ -24,7 +26,7 @@ const tl = gsap.timeline({
   tl.fromTo(".cta4", { x: "-100%", opacity: 0.5 }, { x: 0, opacity: 1 }, "<30%");
   tl.fromTo(".cta5", { y: "100%", opacity: 0.5 }, { y: 0, opacity: 1 }, "<40%");
   tl.fromTo(".cta6", { y: "-100%", opacity: 0.5 }, { y: 0, opacity: 1 }, "<");
-  tl.fromTo(".arrows", {opacity: 0 }, {opacity: 1, delay: 3, duration: 2});
+  tl.fromTo(".arrows", {opacity: 0 }, {opacity: 1, delay: 2.5, duration: 2});
   tl.fromTo(".scroll-text", {opacity: 0 }, {opacity: 1, duration: 2}, "<");
 
   
