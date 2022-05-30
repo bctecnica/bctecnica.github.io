@@ -4,15 +4,15 @@ const tl = gsap.timeline({
   
 
   // delay to help load images before they're displayed
-  gsap.set(".hero-img", { display: "inline-block", delay: 1 });
-  gsap.set(".cta-btn", { display: "inline-block", delay: 1 });
+  gsap.set(".hero-img", { display: "inline-block", delay: 1.2 });
+  gsap.set(".cta-btn", { display: "inline-block", delay: 1.2 });
   tl.fromTo(
     ".hero-img",
     { scale: 1.3, borderRadius: "0rem" },
     {
       scale: 1,
       borderRadius: "3rem",
-      delay: 1,
+      delay: 1.2,
       duration: 2.5,
       ease: "elastic.out(1.5,1)",
     }
