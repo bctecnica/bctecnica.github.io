@@ -101,7 +101,7 @@
 
     .scroll-text {
         z-index: 5000;
-        bottom: 110px; 
+        bottom: -150px; 
     }
 }
 
