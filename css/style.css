@@ -72,7 +72,7 @@ h3 span {
 
 @media only screen and (max-width: 600px) {
   .arrows {
-    bottom: 45px;
+    bottom: 120px;
   }
 }
 .arrows path {
