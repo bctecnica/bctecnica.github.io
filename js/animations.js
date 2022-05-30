@@ -68,8 +68,11 @@ const tlIntro = gsap.timeline({
     pin: true,
     // lets the next element scroll up over the top
     pinSpacing: false,
+    scrub: true,
     },
 });
+
+
 
 //Pin the second page
 const tlAbout = gsap.timeline({
@@ -87,6 +90,12 @@ const tlAbout = gsap.timeline({
     },
   });
 
+  tlIntro.fromTo(
+    ".page1",
+    {opacity: 1 },
+    { opacity: 0,},
+    "<"
+);
 
 
 
