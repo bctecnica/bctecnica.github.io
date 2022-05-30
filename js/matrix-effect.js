@@ -10,7 +10,7 @@ var chinese = "10 ";
 //mengkonvert string karakter menjadi array
 chinese = chinese.split("");
 
-var font_size = 12;
+var font_size = 11;
 var columns = c.width/font_size; //number of columns for the rain
 //an array of drops - one per column
 var drops = [];
@@ -24,7 +24,7 @@ function draw()
 {
 	//Black BG for the canvas
 	//translucent BG to show trail
-	ctx.fillStyle = "rgba(100, 100, 100, 0.05)";
+	ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
 	ctx.fillRect(0, 0, c.width, c.height);
 	
 	ctx.fillStyle = "#fff"; //white text

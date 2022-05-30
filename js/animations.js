@@ -1,3 +1,4 @@
+// --header animation--
 const tl = gsap.timeline({
     defaults: { duration: .8, ease: "Power3.easeOut" },
   });
@@ -28,7 +29,7 @@ const tl = gsap.timeline({
   tl.fromTo(".cta4", { x: "-100%", opacity: 0.5 }, { x: 0, opacity: 1 }, "<30%");
   tl.fromTo(".cta5", { y: "100%", opacity: 0.5 }, { y: 0, opacity: 1 }, "<40%");
   tl.fromTo(".cta6", { y: "-100%", opacity: 0.5 }, { y: 0, opacity: 1 }, "<");
-  tl.fromTo(".arrows", {opacity: 0 }, {opacity: 1, delay: 2.5, duration: 2});
+  tl.fromTo(".arrows", {opacity: 0 }, {opacity: 1, delay: 2, duration: 2});
   tl.fromTo(".scroll-text", {opacity: 0 }, {opacity: 1, duration: 2}, "<");
 
   
@@ -50,13 +51,46 @@ const tl = gsap.timeline({
   gsap.fromTo(
     ".letter",
     { y: "100%" },
-    { y: 0, delay: 3.5, stagger: 0.1, ease: "back.out(3)" }
+    { y: 0, delay: 4, stagger: 0.1, ease: "back.out(3)" }
   );
 
 
+//Pin the first page
+const tlIntro = gsap.timeline({
+    scrollTrigger: {
+    // start point
+    trigger: ".first-page",
+    // how far into the element the animation starts
+    start: "0%",
+    // how far into the element the animation ends
+    end: "100%",
+    // stops the selected page from moving till animation is complete helpful to add scroll animations where elements stay in one position but animate as the user scrolls or to move next page over the top
+    pin: true,
+    // lets the next element scroll up over the top
+    pinSpacing: false,
+    },
+});
+
+//Pin the second page
+const tlAbout = gsap.timeline({
+    scrollTrigger: {
+      // start point
+      trigger: ".second-page",
+      // how far into the element the animation starts
+      start: "500%",
+      // how far into the element the animation ends
+      end: "100%",
+      // stops the selected page from moving till animation is complete helpful to add scroll animations where elements stay in one position but animate as the user scrolls or to move next page over the top
+      pin: true,
+      // lets the next element scroll up over the top
+      pinSpacing: false,
+    },
+  });
 
 
-  // www. animation  
+
+
+  // --www. animation--
   var TxtRotate = function(el, toRotate, period) {
     this.toRotate = toRotate;
     this.el = el;
