@@ -98,7 +98,6 @@ const tlAbout = gsap.timeline({
 );
 
 
-
   // --www. animation--
   var TxtRotate = function(el, toRotate, period) {
     this.toRotate = toRotate;
@@ -151,3 +150,4 @@ const tlAbout = gsap.timeline({
       }
     }
   };
+

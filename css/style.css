@@ -46,12 +46,17 @@ h3 span {
   font-size: 3.5rem;
 }
 
-.blinking-caret-orange{
+.blinking-caret-orange,
+.blinking-caret-orange-2{
   color: #000;
   overflow: hidden; 
   border-right: .1em solid black;
   white-space: nowrap; 
   animation: blink-caret-orange 1s step-end infinite;
+}
+
+.blinking-caret-orange-2{
+  border-right: .05em solid black;
 }
 
 /* The typewriter cursor effect */
@@ -162,6 +167,7 @@ h3 span {
 
 em {
   text-shadow: 2px 2px 0px rgba(0,0,0,0.2);
+  font-style: normal;
 }
 
 .vertically-center {
