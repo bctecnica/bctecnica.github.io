@@ -6,8 +6,8 @@ const tl = gsap.timeline({
 // delay to help load images before they're displayed
 tl.set(".loader-container", { display: "none", delay: 3 });
 tl.set(".hero-section", { display: "block", delay: 0.2 });
-tl.set(".hero-img", { display: "inline-block" });
-tl.set(".cta-btn", { display: "inline-block" });
+tl.set(".cta-btn", { display: "inline-block" }, "<");
+tl.set(".hero-img", { display: "inline-block" }, "<");
 tl.fromTo(
   ".hero-img",
   { scale: 1.3, borderRadius: "0rem" },
@@ -23,7 +23,7 @@ tl.fromTo(
 tl.fromTo(
   ".slide-left",
   { x: "100%", opacity: 0.5 },
-  { x: 0, opacity: 1, delay: 2 },
+  { x: 0, opacity: 1, delay: .3},
   "<30%"
 );
 tl.fromTo(
@@ -44,7 +44,7 @@ tl.fromTo(".cta3", { y: "-100%", opacity: 0.5 }, { y: 0, opacity: 1 }, "<");
 tl.fromTo(".cta4", { x: "-100%", opacity: 0.5 }, { x: 0, opacity: 1 }, "<30%");
 tl.fromTo(".cta5", { y: "100%", opacity: 0.5 }, { y: 0, opacity: 1 }, "<40%");
 tl.fromTo(".cta6", { y: "-100%", opacity: 0.5 }, { y: 0, opacity: 1 }, "<");
-tl.fromTo(".arrows", { opacity: 0 }, { opacity: 1, delay: 2, duration: 2 });
+tl.fromTo(".arrows", { opacity: 0 }, { opacity: 1, duration: 1, delay: 3 }, "<");
 tl.fromTo(".scroll-text", { opacity: 0 }, { opacity: 1, duration: 2 }, "<");
 
 //Split text alternative
@@ -65,7 +65,7 @@ gsap.set(".letter", { display: "inline-block" });
 gsap.fromTo(
   ".letter",
   { y: "100%" },
-  { y: 0, delay: 8, stagger: 0.1, ease: "back.out(3)" }
+  { y: 0, delay: 6.5, stagger: 0.1, ease: "back.out(3)" }
 );
 
 //Pin the first page
